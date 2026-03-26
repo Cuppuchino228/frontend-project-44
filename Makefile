@@ -9,3 +9,9 @@ publish:
 
 link:
 	npm link
+
+link:
+	npx eslint .
+
+fix:
+	npx eslint --fix .

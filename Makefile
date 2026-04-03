@@ -10,7 +10,7 @@ publish:
 link:
 	npm link
 
-link:
+lint:
 	npx eslint .
 
 fix:

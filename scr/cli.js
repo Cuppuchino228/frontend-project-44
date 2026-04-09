@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-function greet () {
+function greet() {
   console.log('Welcome to the Brain Games!')
   const name = readlineSync.question('May I have your name? ')
 
@@ -11,5 +11,7 @@ function greet () {
 export { greet }
 
 function isEven(answer, num) {
-  if (num % 2 === 0) return "Correct!"
+  if (num % 2 === 0) return 'Correct!'
 }
+
+export { isEven }

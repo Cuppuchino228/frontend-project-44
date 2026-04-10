@@ -24,21 +24,18 @@ function playBrainPrime() {
 
   for (let round = 1; round < 4; round++) {
     const randomNumber = randomJustNumber()
-    const correctAnswer = isPrime() ? 'yes' : 'no'
+    const correctAnswer = isPrime(randomNumber) === true ? 'yes' : 'no'
 
     console.log(`Question: ${randomNumber}`)
     const userAnswer = readlineSync.question(`Your answer: `).trim().toLowerCase()
 
     if (userAnswer !== correctAnswer) {
-      console.log('Correct!')
-    }
-    else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${userName}!`)
       return
     }
+    console.log('Correct!')
   }
   console.log(`Congratulations, ${userName}!`)
 }
-
 playBrainPrime()

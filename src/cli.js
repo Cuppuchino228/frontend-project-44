@@ -8,7 +8,6 @@ function greet() {
   return name
 }
 
-
 function isEven(answer, num) {
   if (num % 2 === 0) return 'Correct!'
 }

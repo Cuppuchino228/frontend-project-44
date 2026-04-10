@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync'
-import { greet } from '../scr/cli.js'
+import { greet } from '../src/cli.js'
 
 function progressionQuestion() {
   const start = Math.floor(Math.random() * 10) + 1

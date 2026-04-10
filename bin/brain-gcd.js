@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync'
-import { greet } from '../scr/cli.js'
+import { greet } from '../src/cli.js'
 
 function gcd(a, b) {
   a = Math.abs(a)

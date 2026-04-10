@@ -30,11 +30,13 @@ function playBrainPrime() {
     const userAnswer = readlineSync.question(`Your answer: `).trim().toLowerCase()
 
     if (userAnswer !== correctAnswer) {
+      console.log('Correct!')
+    }
+    else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${userName}!`)
       return
     }
-    console.log('Correct!')
   }
   console.log(`Congratulations, ${userName}!`)
 }

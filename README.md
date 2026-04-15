@@ -5,7 +5,7 @@
 [![asciicast](https://asciinema.org/a/dKrPXj3gAsaguJzM.svg)](https://asciinema.org/a/dKrPXj3gAsaguJzM)
 
 ## Игра НОД:
-[![asciicast](https://asciinema.org/a/jJXO47eF71AgR9cU.svg)](https://asciinema.org/a/jJXO47eF71AgR9cU)
+[![asciicast](https://asciinema.org/a/jJXO47eF7lAgR9cU.svg)](https://asciinema.org/a/jJXO47eF7lAgR9cU)
 
 ## Игра арифметическая прогрессия:
 [![asciicast](https://asciinema.org/a/OorkSYoYgViA1Pb9.svg)](https://asciinema.org/a/OorkSYoYgViA1Pb9)
